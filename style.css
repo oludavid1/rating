@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    line-height: 1;
+    font-size: 15px;
+    font-family:'Overpass', sans-serif;
+}
+
+.main-container {
+    width: 25%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    border-radius: 20px;
+    padding: 35px 35px;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 50%;
+    animation: iconRotate 15s ease-out infinite;
+}
+
+@keyframes iconRotate {
+
+    0%,
+    20% {
+        transform: rotate(0deg);
+    }
+
+    25%,
+    45% {
+        transform: rotate(-90deg);
+    }
+
+    50%,
+    70% {
+        transform: rotate(-180deg);
+    }
+
+    75%,
+    95% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.msg {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.rate-buttons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#button1,
+#button2,
+#button3,
+#button4,
+#button5 {
+    background-color: hsl(213, 19%, 25%);
+    color: hsl(217, 12%, 63%);
+    align-self: space-between;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+#button1:hover,
+#button2:hover,
+#button3:hover,
+#button4:hover,
+#button5:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+
+#button1:focus,
+#button2:focus,
+#button3:focus,
+#button4:focus,
+#button5:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+#submitButton {
+    width: 100%;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 15px
+}
+.backButton{
+    width: 100%;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 15px
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+/*Added styles by JavaScript*/
+#computerIcon {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.newText {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.yourRate {
+    width: 60%;
+    align-self: center;
+    background-color: hsl(213, 19%, 25%);
+    color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    padding: 8px 15px;
+    margin-bottom: 45px;
+}

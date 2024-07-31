@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="main-container" role="container">
+      <img id="icon" src="images/icon-star.svg" alt="icon" />
+      <header>
+        <h1 class="title" role="title">How did we do?</h1>
+      </header>
+      <main>
+        <p class="msg" role="message">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to improve our offering!
+        </p>
+        <div class="rate-buttons" role="rate-buttons">
+          <button id="button1" role="button1">1</button>
+          <button id="button2" role="button2">2</button>
+          <button id="button3" role="button3">3</button>
+          <button id="button4" role="button4">4</button>
+          <button id="button5" role="button5">5</button>
+        </div>
+        <button id="submitButton" class="submitButton" role="submit-button">SUBMIT</button>
+      </main>
+    </div>
+
+     <!-- scroll reavel -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <!-- custom js  -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">David O</a>.
+    </div> -->
+
+
+<!-- Rating state start
+
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+
+  Rating state end
+
+  Thank you state start
+
+  You selected Add rating here out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  Thank you state end -->
