@@ -37,7 +37,7 @@ body {
     margin-bottom: 30px;
     border: none;
     border-radius: 50%;
-    animation: iconRotate 15s ease-out infinite;
+    animation: iconRotate 10s ease-out infinite;
 }
 
 @keyframes iconRotate {
@@ -173,3 +173,4 @@ body {
     padding: 8px 15px;
     margin-bottom: 45px;
 }
+ 

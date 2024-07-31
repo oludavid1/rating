@@ -46,9 +46,9 @@ submitButton.addEventListener("click", makeNewPage);
 // ================= scroll reveal =====================
 ScrollReveal({
   reset: true,
-  distance: "80px",
-  duration: 3000,
-  delay: 300,
+  distance: "100px",
+  duration: 2000,
+  delay: 100,
 });
 
 ScrollReveal().reveal(".main-container", { origin: "top" });
